@@ -103,6 +103,32 @@
                             <input type="number" class="form-control" name="height" placeholder="Height (cm)" value="" required>
                             <input type="number" class="form-control" name="weight" placeholder="Weight (kg)" value="" required>
                         </div>
+
+                        <div class="form-group">
+    <label for="yearLevel">Year Level</label>
+    <select class="form-control" id="yearLevel" name="yearLevel" required>
+        <option value="">Select Year Level</option>
+        <option value="1st Year">1st Year</option>
+        <option value="2nd Year">2nd Year</option>
+        <option value="3rd Year">3rd Year</option>
+        <option value="4th Year">4th Year</option>
+        <option value="5th Year">5th Year</option>
+    </select>
+</div>
+
+<div class="form-group">
+    <label for="specialCases">Special Cases</label>
+    <select class="form-control" id="specialCases" name="specialCases">
+        <option value="">Select Special Case</option>
+        <option value="Hepa B">Hepa B</option>
+        <option value="PWD">PWD</option>
+        <option value="Pregnant">Pregnant</option>
+        <option value="APL > N">APL > N</option>
+        <option value="PTB - Non Compliant">PTB - Non Compliant</option>
+        <option value="PTB - Complied">PTB - Complied</option>
+        <option value="For APL">For APL</option>
+    </select>
+</div>
                         
                         <!-- Submit Button -->
                         <button type="submit" name="add_product" class="btn btn-primary btn-block">
